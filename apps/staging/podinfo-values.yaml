@@ -13,8 +13,5 @@ spec:
     ingress:
       hosts:
         - paths:
-          - path: /staging
+          - path: /staging/(.*)
             pathType: ImplementationSpecific
-            backend:
-              port:
-                number: 9898
