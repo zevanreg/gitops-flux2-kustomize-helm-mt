@@ -15,3 +15,6 @@ spec:
         - paths:
           - path: /staging
             pathType: ImplementationSpecific
+            backend:
+              port:
+                number: 9898
