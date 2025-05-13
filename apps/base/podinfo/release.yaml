@@ -14,7 +14,7 @@ spec:
         kind: HelmRepository
         name: podinfo
         namespace: cluster-config
-  interval: 5m
+  interval: 1m
   install:
     remediation:
       retries: 3
