@@ -12,3 +12,5 @@ replica:
 
 volumePermissions:
   enabled: true
+image:
+  repository: bitnamilegacy/redis
