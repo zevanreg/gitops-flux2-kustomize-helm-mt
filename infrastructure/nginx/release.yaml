@@ -25,3 +25,8 @@ spec:
       type: LoadBalancer
     ingressClassResource:
       name: nginx
+    image:
+      repository: bitnamilegacy/nginx-ingress-controller
+    defaultBackend:
+      image:
+        repository: bitnamilegacy/nginx
